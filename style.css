@@ -1,0 +1,62 @@
+/* reset */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-family: 'Palette Mosaic', cursive;
+    background-color: #999;
+}
+
+img {
+    width: 25px;
+}
+
+/* style msg */
+.msg_container {
+    position: fixed;
+    width: 250px;
+    padding: 15px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px #555;
+}
+
+.control_input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+input {
+    background-color: #eee;
+    border: none;
+    padding: 5px; 
+    margin-left: 5px;
+}
+
+
+.btn_msg {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+    transition: background-color .4s .2s ease-out;
+}
+
+.btn_msg:hover {
+    background-color: #ccc;
+    transition: background-color .4s ease-in;
+}
+
